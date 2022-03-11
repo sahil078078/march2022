@@ -13,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
     {'value': 'Female', 'icon': 'images/queen.png'}
   ];
   String genderSelection = '';
-  int currentIndex = 0;
+  int currentIndex = 1;
 
   @override
   Widget build(BuildContext context) {
