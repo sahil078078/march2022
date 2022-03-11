@@ -41,9 +41,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Container(
                       decoration: currentIndex == index
                           ? BoxDecoration(
+                              border: Border.all(
+                                  color: Colors.tealAccent, width: 5),
                               borderRadius: BorderRadius.circular(10),
                               color: Colors.grey)
                           : BoxDecoration(
+                              border: Border.all(
+                                  width: 5, color: Colors.grey.shade300),
                               borderRadius: BorderRadius.circular(10),
                               color: Colors.grey.shade200),
                       child: Padding(
