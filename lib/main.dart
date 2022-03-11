@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import '11-03-2022/expantion_tile.dart';
+import '11-03-2022/gender_selection.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "MyExapntionTile",
-      home: ExapantionTileDesign(),
+      home: HomeScreen(),
     ),
   );
 }
